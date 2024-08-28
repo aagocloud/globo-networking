@@ -31,3 +31,8 @@ variable "public_subnets" {
     public-2 = "10.42.11.0/24"
   }
 }
+
+variable "billing_code" {
+  type        = string
+  description = "Billing code for resources"
+}
